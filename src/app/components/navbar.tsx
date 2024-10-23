@@ -16,10 +16,10 @@ export default  function Header() {
            
             <a className=" container mx-auto flex justify-between items-center" id="posit"> <a id="logo"  className="text-black">   Luxurylensewear  </a> 
             <Link href="/">  Home </Link>
-            <Link href="/About">  About </Link>
-            <Link href="/ContactUs">  Contact Us </Link>
-            <Link href="/ProductCatalog">  Product Catalog </Link>
-            <Link href="/Shopbyseries">  Shop By Series </Link> 
+            <Link href="/about">  About </Link>
+            <Link href="/contactUs">  Contact Us </Link>
+            <Link href="/productcatalog">  Product Catalog </Link>
+            <Link href="/shopbyseries">  Shop By Series </Link> 
             
            
             </a>

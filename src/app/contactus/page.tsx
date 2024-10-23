@@ -1,36 +1,28 @@
 import React from "react";
-// import Header from "../components/Navbar";
 import Image from "next/image";
-import style from "module"
+import styles from "../styles/ContactUs.module.css"; // Adjust the path to your actual CSS module file
 
+export default function ContactUs() {
+  return (
+    <div className={styles.container}> {/* Apply some styling if needed */}
+      {/* Image for Instagram */}
+      <Image
+        src="/insta.png"
+        alt="Instagram"
+        width={70}
+        height={70}
+        className={styles.image}
+      />
+      <span className={styles.text}>03187498376837</span>
 
-
-
-export default function ContactUs (){
-    return (
-      
-    
-        <div>
-       {/* <Header/> */}
-
-       <Image  src="/insta.png"
-    alt="Product"
-    width={70}
-    height={70}
-    className="Image"
-    />  
-    <span className="text">  03187498376837</span>
-
-
-<Image  src="/wa.png"
-    alt="Product"
-    width={70}
-    height={70}
-    justify-center
-    />   
-
+      {/* Image for WhatsApp */}
+      <Image
+        src="/wa.png"
+        alt="WhatsApp"
+        width={70}
+        height={70}
+        className={styles.image}
+      />
     </div>
-
-        
- )
+  );
 }
